@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+
+<script>
+
+function myFunction() {
+  var aa = document.getElementById("aa").value;
+  var bb = document.getElementById("bb").value;
+  document.getElementById("result").innerHTML = (parseFloat(aa) + parseFloat(bb));
+}
+
+</script>
+
+<center>
+<br>
+<table border="0">
+<td>
+first num:
+</td>
+<td>
+<input id="aa" type="text" />
+</td>
+<tr>
+<td>
+second num:
+</td>
+<td>
+<input id="bb" type="text" />
+</td>
+</tr>
+</table>
+
+<br>
+<button onclick="myFunction()">Click me</button>
+<br>
+<div id="result"></div>
+
+</center>
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
